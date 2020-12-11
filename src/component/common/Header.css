@@ -4,6 +4,7 @@
     background-color: #009CC6;
     position: fixed;
     top: 0;
+    z-index: 99;
 }
 
 .Header_opacity {

@@ -87,6 +87,33 @@ const Home = (props) => {
                     </div>
                 </div>
 
+                <div className="Home_section Home_section6">
+                    <div className="Home_section6_content" style={{backgroundImage : 'url( "/assets/img/mockup_phone2.png" )'}}>
+                        <div className="Home_section6_infomation_top">
+                            <div className="Home_section6_infomation_icon">
+                                <img src="/assets/img/info_icon.png" />
+                            </div>
+                            <div className="Home_section6_infomation_text">
+                                <p className="Home_section6_text_title">맞춤식 정보란?</p>
+                                <p>예를 들어 서연고에 지망하고자 하는 학생에게 중하위 대학 정보는 필요 없을것입니다.</p>
+                                <p>학생의 점수와 계열에 맞춘 입시정보를 앱 푸쉬로 제공합니다.</p>
+                            </div>
+                        </div>
+                        {/* <div className="Home_section6_phone">
+                            <img src="/assets/img/mockup_phone2.png" />
+                        </div> */}
+                        <div className="Home_section6_infomation_bottom">
+                            <div className="Home_section6_infomation_icon">
+                                <img src="/assets/img/bell_icon.png" />
+                            </div>
+                            <div className="Home_section6_infomation_text">
+                                <p className="Home_section6_text_title">앱 푸쉬로 보내는 정보</p>
+                                <p>특정 대학이나 부문에 있어서는 고급 정보를 소지하지만, 모든 대학들의 고급 정보를 소지하긴 힘듭니다. </p>
+                                <p>그래서, 이런 정보들은 외부적으로 매뉴얼화 하기 보다는, 앱푸쉬로 해당 학생에게 제공하려 합니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
