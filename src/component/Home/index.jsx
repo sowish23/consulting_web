@@ -52,6 +52,15 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
+
+                <div className="Home_section Home_section3">
+                    <div className="Home_section3_title_box">
+                        <div className="Home_section3_title">왜 ‘InG’ 정시 합격 예측을 사용해야 하는가?</div>
+                    </div>
+                    <div className="Home_section3_content">
+                        <img src="/assets/img/section3_icons.png" />
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -127,3 +127,28 @@
     border-bottom: 4px solid #009CC6;
     border-radius: 2px;
 }
+
+/*section3*/
+
+.Home_section3 {
+    background-color: #009CC6;
+    padding-top: 226px;
+    height: calc(100vh - 226px);
+}
+
+.Home_section3_title_box {
+    height: calc(20vh - 226px);
+}
+
+.Home_section3_title {
+    color: #ffffff;
+    font-size: 3.0em;
+}
+
+.Home_section3_content {
+    height: 70vh;
+}
+
+.Home_section3_content img {
+    height: 100%;
+}
