@@ -61,6 +61,12 @@ const Home = (props) => {
                         <img src="/assets/img/section3_icons.png" />
                     </div>
                 </div>
+
+                <div className="Home_section Home_section4">
+                    <div className="Home_section4_content">
+                        <img src="/assets/img/section4_icons.png" />
+                    </div>
+                </div>
             </div>
         </div>
     );
