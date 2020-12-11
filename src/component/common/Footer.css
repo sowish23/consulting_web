@@ -1,0 +1,21 @@
+.Footer {
+    width: 100%;
+    height: 182px;
+    background-color: #B7B7B7;
+}
+
+.Footer_content {
+    display: flex;
+    padding: 36px;
+    color: #404040;
+}
+
+.Footer_company_name {
+    padding: 0 24px;
+    border-right: 1px solid #404040;
+}
+
+.Footer_info_box {
+    margin-left: 24px;
+    font-size: 0.8em;
+}

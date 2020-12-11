@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
 import Header from '../common/Header'
+import Footer from '../common/Footer'
 
 const Home = (props) => {
     const headerOpacity = useState(true)
@@ -127,6 +128,7 @@ const Home = (props) => {
                         </p>
                     </div>
                 </div>
+                <Footer />
             </div>
         </div>
     );
