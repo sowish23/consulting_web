@@ -67,6 +67,26 @@ const Home = (props) => {
                         <img src="/assets/img/section4_icons.png" />
                     </div>
                 </div>
+
+                <div className="Home_section Home_section5">
+                    <div className="Home_section5_icon">
+                        <img src="/assets/img/university_hat.png" />
+                    </div>
+                    <div className="Home_section5_content">
+                        <p className="Home_section5_title">‘나에게 가장 유리한 대학 찾기’란 무엇인가?</p>
+                        <p className="Home_section5_text">
+                            한 학생의 대학별 점수는 반영 과목, 과목별 반영 비율, 과목별 가중치, 내신 반영비율, 표점 or 백분위에 따라, 대학별로 유불리가 존재합니다. <br/>
+                            그리고 이러한 유불리는 전형 총점이 1000점 만점일 때, 보통 3~10점의 큰 점수차가 납니다. <br/>
+                            (최초합격생과 추가합격생의 점수 차가 보통 0.1점이라는 점을 고려해보면, 꽤 큰 차이입니다). <br/>
+                        </p>
+                        <p className="Home_section5_text">
+                            현재 모든 입시기관에서는 특정 과목을 선택했을 때의 유불리는 제공하지만, 과목별 반영비율, 과목별 가중치, <br/>
+                            내신 반영비율, 표점 or 백분위에 따른 유불리 차이는 제공하지 않습니다. <br/>
+                            ING는 이 부분을 특허출원하여, 유일하게 제공합니다. <br/>
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
