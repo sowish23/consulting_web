@@ -33,6 +33,25 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
+
+                <div className="Home_section Home_section2">
+                    <div className="Home_section2_title_box">
+                        <div className="Home_section2_title">InG 정시 합격 예측</div>
+                        <div className="Home_section2_subtitle">대입 정시 컨설팅</div>
+                    </div>
+                    <div className="Home_section2_video_box">
+                        <video autoplay controls loop muted>
+                            <source src="/assets/video/최종본.mp4" type="video/mp4" />
+                            해당 브라우저는 동영상 재생을 지원하지 않습니다.
+                        </video>
+                    </div>
+                    <div className="Home_section2_sub_box">
+                        <div className="Home_section2_sub">
+                            입시 빅데이터를 기반으로 한 <br/>
+                            AI 맞춤형 입시 코칭 시스템
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

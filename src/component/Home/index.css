@@ -5,14 +5,17 @@
 .Home_content {
 }
 
+/* section1 */
+
 .Home_section {
     padding-top: 98px;
     height: calc(100vh - 98px);
-    line-height: 70vh;
+    text-align: center;
 }
 
 .Home_section1 {
     background-color: #009CC6;
+    line-height: 70vh;
 }
 
 .Home_section1_content {
@@ -91,4 +94,36 @@
     height: 18px;
     border-radius: 100%;
     background-color: #ffffff;
+}
+
+/* section2 */
+
+.Home_section2 {
+    background-color: #EEFBFF;
+    padding-top: 134px;
+    height: calc(100vh - 134px);
+}
+
+.Home_section2_title {
+    font-size: 3.0em;
+}
+
+.Home_section2_subtitle {
+    font-size: 1.5em;
+}
+
+.Home_section2_video_box {
+    margin: 24px 0;
+}
+
+.Home_section2_video_box video {
+    width: 50%;
+}
+
+.Home_section2_sub_box {
+    padding: 24px;
+    width: 20%;
+    margin: auto;
+    border-bottom: 4px solid #009CC6;
+    border-radius: 2px;
 }
