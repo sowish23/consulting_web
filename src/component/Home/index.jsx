@@ -114,6 +114,19 @@ const Home = (props) => {
                         </div>
                     </div>
                 </div>
+
+                <div className="Home_section Home_section7">
+                    <div className="Home_section7_icon">
+                        <img src="/assets/img/teacher_icon.png" />
+                    </div>
+                    <div className="Home_section7_content">
+                        <p className="Home_section7_title">대표가 대치동 입시 학원 원장으로 20년이라던데, 입시 컨설팅에 노하우는?</p>
+                        <p className="Home_section7_text">
+                            20년간의 컨설팅의 노하우는 케이스 바이 케이스라서, 일반적으로 제공하기 보단 <br/>
+                            AI와 앱의 기술적인 도움을 받아서, ‘맞춤식’으로 제공할 예정입니다.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     );
